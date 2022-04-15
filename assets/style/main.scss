@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@import "sass/reset";
+@import "sass/colors";
+@import "sass/input";
+@import "sass/copy";
+@import "sass/alert-box";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: $branco;
+}

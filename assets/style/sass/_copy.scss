@@ -1,0 +1,12 @@
+.copy {
+    position: absolute;
+    top: 68px;
+    right: 20px;
+    cursor: pointer;
+    opacity: .2;
+    transform: scale(120%);
+}
+
+.copy:hover {
+    opacity: 1;
+}
