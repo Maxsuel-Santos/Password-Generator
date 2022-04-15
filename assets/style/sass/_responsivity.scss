@@ -4,18 +4,17 @@
       }
 
     .copy {
-        top: 101px;
-        right: 20px;
+        top: 173px;
+        right: 30px;
+        transform: scale(150%);
     }
 
     .inputBox input, #btn {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .alertBox {
-        font-size: 18px;
+        font-size: 1.7rem;
         padding: 10px;
-        display: flex;
-        flex-wrap: wrap;
     }
 }

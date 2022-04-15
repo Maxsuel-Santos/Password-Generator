@@ -126,8 +126,17 @@ body {
     width: 300px;
   }
   .copy {
-    top: 101px;
-    right: 20px;
+    top: 173px;
+    right: 30px;
+    -webkit-transform: scale(150%);
+            transform: scale(150%);
+  }
+  .inputBox input, #btn {
+    font-size: 20px;
+  }
+  .alertBox {
+    font-size: 1.7rem;
+    padding: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */
