@@ -63,3 +63,36 @@ body {
 .inputBox #btn:active {
     background-color: #9c27b0;
 }
+
+.copy {
+    position: absolute;
+    top: 68px;
+    right: 20px;
+    cursor: pointer;
+    opacity: .2;
+    transform: scale(120%);
+}
+
+.copy:hover {
+    opacity: 1;
+}
+
+.alertBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #9c27b0;
+    color: #fff;
+    text-align: center;
+    font-size: 4em;
+    display: none;
+}
+
+.alertBox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
