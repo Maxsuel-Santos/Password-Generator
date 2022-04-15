@@ -1,5 +1,5 @@
 # Password-Generator
-Gerador de senha com HTML, CSS & JavaScript.
+Gerador de senha responsivo.
 
 ## Preview
 
