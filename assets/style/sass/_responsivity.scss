@@ -8,7 +8,11 @@
         right: 20px;
     }
 
-    .inputBox input {
+    .inputBox input, #btn {
         font-size: 18px;
+    }
+
+    .alertBox {
+        font-size: 2.7em;
     }
 }
