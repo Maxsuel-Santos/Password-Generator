@@ -8,6 +8,20 @@
           user-select: none;
 }
 
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
 .inputBox {
   position: relative;
   width: 450px;
@@ -107,17 +121,13 @@
           align-items: center;
 }
 
-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-height: 100vh;
-  background-color: #f8f8f8;
+@media only screen and (max-width: 530px) {
+  .inputBox {
+    width: 300px;
+  }
+  .copy {
+    top: 101px;
+    right: 20px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
